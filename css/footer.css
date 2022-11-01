@@ -1,0 +1,39 @@
+
+       /* Footer styles */
+.footer{
+    height: 150px;
+    background-color: #2a2d34;
+}
+    
+.footer > .footer-wrapper{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);     
+}
+    
+.footer > .footer-wrapper > .footer-links {
+    background-color: #36383f;
+    padding: 20px;
+    margin-top:-45px;
+    border: 1px solid #676767;
+    cursor: pointer;   
+ }
+    
+.footer > .footer-wrapper > .footer-links:hover {
+   background-color: #434343;       
+}
+    
+.footer > .footer-wrapper > .footer-links a {
+   color: #fff;
+    text-decoration: none;
+    font-size:1.3em ;       
+}
+
+.footer > .footer-wrapper > .footer-links span {
+    color: #fff;
+    text-decoration: none;
+    font-size:1.8em ;
+    font-family: 'Telefon', Sans-Serif;
+    font-weight: 700;     
+} 
+    
+    
